@@ -1,4 +1,4 @@
 # ExpressionTreeRandomizer
-Header-only library has the capability for the random generation of expression trees with subsequent evaluation. The tree is generated based on the formula proposed by Mr. Arnold and Sleep in 1980. The tree generation operates in O(n) time complexity, and each possible shape of the tree is equally probable.
+Header-only library has the capability for the random generation of expression trees with subsequent evaluation. The tree is generated based on the algorithm proposed by D.B. Arnold and M.R. Sleep in their work on "Uniform Random Number Generation of n Balanced Parenthesis Strings" (1980). This library is designed to create random sets of balanced parentheses, essentially forming binary expression trees. One notable feature of the algorithm is its ability to ensure that every tree "shape" is equally likely, and it achieves this in O(n) time complexity. Another advantageous aspect is the control it provides over the number of leaves = operands in the generated expression.
 
 The library requires the Eigen library, because is specifically designed for vector calculations for symbolic regression.
